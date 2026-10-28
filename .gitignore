@@ -1,0 +1,12 @@
+*.iml
+.idea/
+.gradle/
+.kotlin/
+**/build/
+local.properties
+*.jks
+*.keystore
+.DS_Store
+
+release-assets/
+__pycache__/
