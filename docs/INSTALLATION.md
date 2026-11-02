@@ -30,7 +30,7 @@ Add the dependency in your app's `build.gradle.kts` and sync:
 
 ```kotlin
 dependencies {
-    implementation("com.optikosprime:sdk:0.1.0-beta.1")
+    implementation("com.optikosprime:sdk:0.1.0-beta.2")
 }
 ```
 
