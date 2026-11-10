@@ -2,7 +2,7 @@
 
 Android SDK binaries and a sample app for integrating Optikos Prime vision checks.
 
-Version **0.1.0-beta.3** is a development beta that has not completed production validation. Commercial license terms are being prepared.
+Version **0.1.0-beta.4** is a development beta that has not completed production validation. Commercial license terms are being prepared.
 
 ## Install
 
