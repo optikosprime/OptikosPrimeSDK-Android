@@ -30,7 +30,7 @@ Add the dependency in your app's `build.gradle.kts` and sync:
 
 ```kotlin
 dependencies {
-    implementation("com.optikosprime:sdk:0.1.0-beta.5")
+    implementation("com.optikosprime:sdk:0.1.0-beta.6")
 }
 ```
 
@@ -88,5 +88,7 @@ visionCheck.launch(OptikosPrimeConfiguration(isOlderThan43 = isOlderThan43))
 The callback reports completion, cancellation, or failure. Initialization can throw `OptikosPrimeException` for an invalid access license.
 
 The SDK declares camera and internet permissions and requests camera access when capture begins. Use a supported physical phone; Android version support alone does not guarantee camera support. Call `OptikosPrimeSDK.getCameraInfo()` from a coroutine to check support.
+
+For predefined themes, custom font resources, and the optional font-scale limit, see [Themes and custom fonts](../README.md#themes-and-custom-fonts).
 
 See [SampleApp](../SampleApp/README.md) for a complete integration with camera support checks, themes, and result handling.

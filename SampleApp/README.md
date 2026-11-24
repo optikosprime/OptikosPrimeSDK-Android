@@ -35,3 +35,5 @@ Both included sample licenses in `app/sample-licenses.properties` are bound to `
 Changing the application ID requires matching access licenses.
 
 The example uses `isOlderThan43 = true`. Use the user's actual answer when adapting the integration.
+
+For the built-in `Red` and `Default` styles, custom font resources, and the optional maximum font scale, see [Themes and custom fonts](../README.md#themes-and-custom-fonts). The sample's custom palette is defined in `app/src/main/java/com/optikosprime/sdk/sampleapp/ExampleTheme.kt` and passed through `OptikosPrimeConfiguration`.
